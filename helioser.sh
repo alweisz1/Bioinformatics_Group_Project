@@ -1,9 +1,9 @@
 for files in ./*protein*
 do
+  echo $files >> TabulatedValues.csv
   for file in ./hmmfiles/*
   do
     #./hmmbuild tempStore.fasta $file
-    echo $files >> TabulatedValues.csv
     echo $file >> TabulatedValues.csv
     ./hmmsearch --tblout hmm.hits $file $files
     cat hmm.hits | grep -v "#" | wc -l >> TabulatedValues.csv
