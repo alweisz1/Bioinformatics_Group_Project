@@ -1,0 +1,7 @@
+The output of the hmmloop.sh seems to find and report the number of file lines in each $bio.
+
+To fix this replace "$bioResultsHMM.csv" with "bioResultsHMM.csv" in line 24.
+Then in line 25 replace "$bio" with "bioResultsHMM.csv"
+
+
+Other than that everything looks great! 
