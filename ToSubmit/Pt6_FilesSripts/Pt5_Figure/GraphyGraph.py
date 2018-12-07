@@ -1,16 +1,10 @@
-
-# coding: utf-8
-
-# In[2]:
-
-
+# import stuff useful for graphing
 import numpy as np
 import pandas as pd
 from plotnine import *
 import matplotlib.pyplot as plt
 
 
-# In[3]:
 
 
 #open files and give it a name to use within the code
@@ -20,8 +14,6 @@ data3 = pd.read_csv("TabulatedValObese1protein.csv")
 data4 = pd.read_csv("TabulatedValObese2protein.csv")
 
 
-# In[4]:
-
 
 #Telling python to read every even row within the previous files to access the # of hits
 data1a = data1.loc[0::2].astype(int)
@@ -29,8 +21,6 @@ data2a = data2.loc[0::2].astype(int)
 data3a = data3.loc[0::2].astype(int)
 data4a = data4.loc[0::2].astype(int)
 
-
-# In[7]:
 
 
 # data to plot
@@ -47,7 +37,7 @@ index = np.arange(n_groups)
 bar_width = 0.175
 opacity = 0.8
 
-print type(index)
+# do the graphing 
 rects1 = plt.bar(index, Ctrl1, bar_width,
                  alpha=opacity,
                  color='b',
@@ -77,5 +67,7 @@ plt.legend()
 #Print
 plt.tight_layout()
 plt.show()
+
+#Store the graph with  file name like a functional adult would
 fig.savefig('GRAPHYGRAPH.png') # save the figure to file
 
