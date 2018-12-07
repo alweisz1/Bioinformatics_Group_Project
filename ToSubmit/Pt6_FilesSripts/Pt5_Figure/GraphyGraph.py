@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[37]:
+# In[2]:
 
 
 import numpy as np
@@ -10,25 +10,27 @@ from plotnine import *
 import matplotlib.pyplot as plt
 
 
-# In[38]:
+# In[3]:
 
 
+#open files and give it a name to use within the code
 data1 = pd.read_csv("TabulatedValControl1protein.csv")
 data2 = pd.read_csv("TabulatedValControl2protein.csv")
 data3 = pd.read_csv("TabulatedValObese1protein.csv")
 data4 = pd.read_csv("TabulatedValObese2protein.csv")
 
 
-# In[45]:
+# In[4]:
 
 
+#Telling python to read every even row within the previous files to access the # of hits
 data1a = data1.loc[0::2].astype(int)
 data2a = data2.loc[0::2].astype(int)
 data3a = data3.loc[0::2].astype(int)
 data4a = data4.loc[0::2].astype(int)
 
 
-# In[44]:
+# In[7]:
 
 
 # data to plot
@@ -64,20 +66,16 @@ rects4 = plt.bar(index + 3*bar_width, Obese2, bar_width,
                  alpha=opacity,
                  color='k',
                  label='Obese2')
- 
+
+#Things to make the graph pretty: X and y label, x tick labels, title, legend
 plt.xlabel('Experiment')
-#plt.ylim(0,20)
 plt.ylabel('# Hits')
 plt.title('Expression Ratio in Obese vs non-Obese Mice')
 plt.xticks(index + bar_width, ('Sequence10', 'Sequence1', 'Sequence2', 'Sequence6','Sequence8','Sequence9'))
 plt.legend()
- 
+
+#Print
 plt.tight_layout()
 plt.show()
-
-
-# In[41]:
-
-
-
+fig.savefig('GRAPHYGRAPH.png') # save the figure to file
 
