@@ -1,0 +1,8 @@
+#Top Hits for each of six Unique Transcripts
+
+Sequence1: 'NM_008182.3'
+Sequence2: 'AB055005.1'
+Sequence6: 'NM_013643.2'
+Sequence8: 'NM_138652.2'
+Sequence9: 'NM_010710.4'
+Sequence10: 'NM_028052.4'
