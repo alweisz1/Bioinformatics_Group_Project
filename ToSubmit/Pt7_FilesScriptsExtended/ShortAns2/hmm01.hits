@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmNOTPrimate        -            2.2e-47  154.9   0.0   2.6e-47  154.6   0.0   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      seqNOT.hmm
+# Target file:     Control1protein.fasta
+# Option settings: ./hmmsearch --tblout hmm01.hits seqNOT.hmm Control1protein.fasta 
+# Current dir:     /afs/nd.edu/user15/sblood/local/bin
+# Date:            Fri Dec  7 23:19:48 2018
+# [ok]

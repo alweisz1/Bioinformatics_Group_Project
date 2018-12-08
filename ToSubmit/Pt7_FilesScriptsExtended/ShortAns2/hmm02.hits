@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+Control1             -          hmmPrimate           -              3e-89  291.5   0.2   3.3e-89  291.4   0.2   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      seqPrimate.hmm
+# Target file:     Control1protein.fasta
+# Option settings: ./hmmsearch --tblout hmm02.hits seqPrimate.hmm Control1protein.fasta 
+# Current dir:     /afs/nd.edu/user15/sblood/local/bin
+# Date:            Fri Dec  7 23:19:48 2018
+# [ok]
