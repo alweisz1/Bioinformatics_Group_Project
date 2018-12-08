@@ -1,0 +1,7 @@
+#This is a new layout of the work distribution for the Bioinformatics Project
+#Ryan did all of the work with the NIH database in terms of identifying transcripts and retrieving homologous protein sequences
+#Colin performed the sequence alignments and generated HMMs
+#Colin and Ryan both attempted to write the code for the HMMsearch...Only Ryan's code worked... :(
+#Alicia wrote all the code for generating the plot to display the data
+#Alicia wrote the short answer
+
